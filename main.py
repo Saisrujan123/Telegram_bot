@@ -1,11 +1,12 @@
 import constants as keys
 from telegram.ext import *
+from telegram import *
 import Responses as R
 
-print("Bot started...")
+print("Ride begins😎😎😎")
 
 def start_command(update,context):
-    update.message.reply_text('type something random to get started!')
+    update.message.reply_text('Ride begins😎😎😎,type something random to get started!😉😉')
 
 def help_command(update,context):
     update.message.reply_text('If you need help! you should ask for it on google!')
