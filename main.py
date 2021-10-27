@@ -3,7 +3,7 @@ from telegram.ext import *
 from telegram import *
 import Responses as R
 
-print("Ride begins😎😎😎")
+print("bot started...")
 
 def start_command(update,context):
     update.message.reply_text('Ride begins😎😎😎,type something random to get started!😉😉')
