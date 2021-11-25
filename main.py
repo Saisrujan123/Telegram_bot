@@ -13,10 +13,10 @@ dic=keys.dic
 print("bot started...")
 
 def start_command(update,context):
-    update.message.reply_text('Ride begins😎😎😎,type something random to get started!😉😉')
+    update.message.reply_text('Ride begins😎😎😎,Welcome to our Cowin bot.Please enter district name or pincode to get the list of available centres based on that.🤗 ')
 
 def help_command(update,context):
-    update.message.reply_text('If you need help! you should ask for it on google!')
+    update.message.reply_text('Enter any district name to get details based on district or enter any pincode to get details based on pincode.😊')
 
 def handle_message(update,context):
     text=str(update.message.text).lower()
