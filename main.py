@@ -24,7 +24,7 @@ def handle_message(update,context):
     if text in key_list:
         output_district(update,context,text)
         return
-    #p=int(text)
+    
     if(len(text)==6):
         output_pincode(update,context,text)
         return

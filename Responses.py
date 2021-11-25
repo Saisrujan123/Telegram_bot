@@ -21,4 +21,4 @@ def sample_responses(input_text):
 
 
 
-    return "Can you stick to bot language please?😁"
+    return "Can you stick to bot language please?😁.Use /help command if u dont know bot language🌝"
