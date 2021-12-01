@@ -96,8 +96,9 @@ def main():
 
     updater.start_webhook(listen="0.0.0.0",
                           port=int(PORT),
-                          url_path=keys.API_KEY)
-    updater.bot.setWebhook('https://sleepy-badlands-19865.herokuapp.com/' + keys.API_KEY)
+                          url_path=keys.API_KEY,
+                          webhook_url='https://sleepy-badlands-19865.herokuapp.com/' + keys.API_KEY)
+    
     updater.idle()
 
 main()
