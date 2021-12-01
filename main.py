@@ -4,6 +4,8 @@ from telegram import *
 import Responses as R
 from datetime import datetime
 import requests
+import os
+PORT = int(os.environ.get('PORT', 5000))
 
 
 dic=keys.dic
@@ -92,7 +94,10 @@ def main():
 
     dp.add_error_handler(error)
 
-    updater.start_polling()
+    updater.start_webhook(listen="0.0.0.0",
+                          port=int(PORT),
+                          url_path=keys.API_KEY)
+    updater.bot.setWebhook('https://sleepy-badlands-19865.herokuapp.com/' + keys.API_KEY)
     updater.idle()
 
 main()
