@@ -5,7 +5,7 @@ import Responses as R
 from datetime import datetime
 import requests
 import os
-PORT = int(os.environ.get('PORT', 80))
+PORT = int(os.environ.get('PORT', 8443))
 
 
 dic=keys.dic
