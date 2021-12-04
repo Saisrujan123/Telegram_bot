@@ -1,2 +1,2 @@
 # Telegram_bot
-telegram 
+Telegram bot gives the information of availability of vaccination slots for a specified district name or pincode in India.
