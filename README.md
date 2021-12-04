@@ -3,7 +3,7 @@
  This Telegram bot gives information on the availability of vaccination slots for a specified district name or Pincode in India.
  
 
-<img src="https://user-images.githubusercontent.com/75165541/144718181-3dda560c-f2fa-4b19-99bf-38cd9eb2bacc.jpg" width="200" height="500" />
+<img src="https://user-images.githubusercontent.com/75165541/144718181-3dda560c-f2fa-4b19-99bf-38cd9eb2bacc.jpg" width="300" height=600" />
 
 ## Instructions to use the bot
 
