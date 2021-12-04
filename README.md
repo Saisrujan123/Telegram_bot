@@ -8,10 +8,10 @@ Telegram bot gives the information of availability of vaccination slots for a sp
 
 - Enter required dictrict name or pincode in your telegram bot to get information of availability of vaccination slots.
 
-## To create a bot
+## Instructions to create your own bot
 
 - First clone the repository
 - Create a bot on telegram's botFather and save the token received.
 - Open constants.py file and replace your api token with the current one.
-- Then save and run bot.py.
+- Then save and run bot.py file.
 
