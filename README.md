@@ -10,8 +10,8 @@ Telegram bot gives the information of availability of vaccination slots for a sp
 
 ## To create a bot
 
-- First clone the repo
+- First clone the repository
 - Create a bot on telegram's botFather and save the token received.
 - Open constants.py file and replace your api token with the current one.
-- Then run bot.py
+- Then save and run bot.py.
 
