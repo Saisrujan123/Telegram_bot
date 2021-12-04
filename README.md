@@ -2,9 +2,6 @@
 
  This Telegram bot gives information on the availability of vaccination slots for a specified district name or Pincode in India.
  
-
-<img src="https://user-images.githubusercontent.com/75165541/144718181-3dda560c-f2fa-4b19-99bf-38cd9eb2bacc.jpg" width="300" height="520" />
-
 ## Instructions to use the bot
 
 - Go to your telegram app and search for `@Cowin_info` to open our telegram bot.
@@ -20,4 +17,5 @@
 - Open the constants.py file and replace your API token with the current one.
 - Finally, run the bot.py file to start the bot.
 
+<img src="https://user-images.githubusercontent.com/75165541/144718181-3dda560c-f2fa-4b19-99bf-38cd9eb2bacc.jpg" width="300" height="520" />
 
