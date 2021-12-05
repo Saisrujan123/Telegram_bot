@@ -4,7 +4,7 @@
  
 ## Instructions to use the bot
 
-- Go to your telegram app and search for `@Cowin_info` to open our telegram bot.
+- Go to your telegram app and search for `@Cowin_info_bot` to open our telegram bot.
 - Enter the required district name or Pincode in your telegram bot to get information on the availability of vaccination slots.
 
 ## Instructions to create your own bot
